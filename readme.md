@@ -7,7 +7,7 @@ My background includes ERP administration (NetSuite), logistics and warehousing
 operations, compliance documentation, and project coordination. These are contexts
 where data work happens, not adjacent to it.
 
-This portfolio demonstrates applied analytical thinking across four projects,
+This portfolio demonstrates applied analytical thinking across three projects,
 each built on real-world datasets using SQL, Python, and BI tooling.
 
 ---
@@ -15,7 +15,6 @@ each built on real-world datasets using SQL, Python, and BI tooling.
 ## Projects
 
 ### 1. Olist Delivery Performance Analysis
-
 **Tools:** MySQL, Metabase, Python  
 **Dataset:** Brazilian E-Commerce Public Dataset (Olist), 96,000+ orders
 
@@ -25,7 +24,6 @@ are driven by logistics infrastructure gaps rather than seller performance, whic
 emerged from a comparison of customer-side and seller-side late rates by state.
 
 **Key findings:**
-
 - 91.9% on-time rate platform-wide, but estimates are systematically conservative by around 12 days
 - Northeastern states face nearly 4x the late rate of Sao Paulo (AL: 23.9% vs SP: 5.9%)
 - Seller late rates are significantly lower than customer late rates in equivalent regions, confirming that delays accumulate in transit rather than at dispatch
@@ -35,7 +33,6 @@ emerged from a comparison of customer-side and seller-side late rates by state.
 ---
 
 ### 2. Global Superstore Business Performance Analysis
-
 **Tools:** MySQL, Metabase, Python  
 **Dataset:** Global Superstore, 51,290 orders across 7 markets (2011-2014)
 
@@ -45,7 +42,6 @@ Discount policy emerged as the single strongest predictor of margin, with a
 clear threshold above which orders become structurally loss-making.
 
 **Key findings:**
-
 - Orders discounted above 20% are loss-making without exception, and orders discounted above 50% generate a margin of -111%
 - 20% of all orders carry discounts above 30%, generating &#36;793k in combined losses
 - Tables (Furniture) is the only loss-making sub-category, driven by a 29% average discount rate
@@ -56,7 +52,6 @@ clear threshold above which orders become structurally loss-making.
 ---
 
 ### 3. EU Road Freight Transport Analysis
-
 **Tools:** Python, pandas, matplotlib, JupyterLab  
 **Dataset:** Eurostat road_go_ta_tott, 31 countries from 2010 to 2024
 
@@ -66,7 +61,6 @@ behind them. Includes a methodological case study on how baseline selection
 materially changes analytical conclusions.
 
 **Key findings:**
-
 - The 2021-2022 post-COVID surge was the anomaly. The 2023-2024 contraction represents normalisation toward the long-run trend rather than structural decline
 - Poland leads EU road freight by a structural, long-run margin, exceeding Germany by 31% in 2024
 - A clear east-west divide has emerged, with 15 of 28 countries declining from 2019 to 2024, predominantly in western Europe
@@ -76,40 +70,17 @@ materially changes analytical conclusions.
 
 ---
 
-### 4. EU Logistics Performance and Freight Modal Analysis
-
-**Tools:** Python, requests, pandas, matplotlib, seaborn, JupyterLab  
-**Data sources:** World Bank API (LPI), Eurostat API (road freight + modal split)
-
-Built an end-to-end data pipeline extracting data from two public APIs, joining
-across three datasets, and analysing the relationship between logistics quality
-scores and inland freight modal mix across 27 European countries. The finding
-that logistics quality and freight volume are largely independent was not the
-expected result, and is more analytically interesting for it.
-
-**Key findings:**
-
-- Modal mix is driven by geography and history rather than logistics quality. Latvia uses 53.2% rail due to Soviet-era infrastructure, not logistics sophistication
-- The correlation between LPI score and rail share is -0.298, meaning higher logistics quality does not predict greater rail usage
-- The correlation between LPI score and freight volume is 0.198, effectively no relationship
-- Poland (LPI 3.6) generates the highest freight volume in the dataset, while Switzerland (LPI 4.1) combines a top score with one of the lowest volumes
-
-[View Project](project-4-pipeline/)
-
----
-
 ## Technical Skills
 
-| Tool           | Level                                                                     |
-| -------------- | ------------------------------------------------------------------------- |
-| SQL / MySQL    | Intermediate, including joins, aggregations, window functions, and views  |
-| Metabase       | Working knowledge, including dashboards, SQL questions, and data models   |
-| Python         | Intermediate, including pandas, matplotlib, seaborn, and JupyterLab       |
-| REST APIs      | Practical experience extracting and parsing data from public APIs         |
-| Data pipelines | ETL pipeline design with logging, pagination handling, and CLI interfaces |
-| Excel          | Proficient                                                                |
-| HTML           | Working knowledge                                                         |
-| Git / GitHub   | Version control and repository management                                 |
+| Tool | Level |
+|---|---|
+| SQL / MySQL | Intermediate, including joins, aggregations, window functions, and views |
+| Metabase | Working knowledge, including dashboards, SQL questions, and data models |
+| Python | Intermediate, including pandas, matplotlib, seaborn, and JupyterLab |
+| Excel | Proficient |
+| REST APIs | Understand structure, can work with them |
+| HTML | Working knowledge |
+| Git / GitHub | Version control and repository management |
 
 ---
 
