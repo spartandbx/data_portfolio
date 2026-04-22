@@ -1,0 +1,4 @@
+# Create .gitignore
+echo dataset/ > .gitignore
+echo __pycache__/ >> .gitignore
+echo .ipynb_checkpoints/ >> .gitignore
