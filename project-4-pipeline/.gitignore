@@ -1,0 +1,4 @@
+echo output/ > C:\dev\portfolio\project-4-pipeline\.gitignore
+echo logs/ >> C:\dev\portfolio\project-4-pipeline\.gitignore
+echo __pycache__/ >> C:\dev\portfolio\project-4-pipeline\.gitignore
+echo .ipynb_checkpoints/ >> C:\dev\portfolio\project-4-pipeline\.gitignore

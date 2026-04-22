@@ -195,7 +195,7 @@ project-3-eu-road-tpt/
 
 This notebook was completed as part of a data analyst portfolio. The dataset
 was chosen to apply Python EDA techniques to a recent, real-world logistics
-context — directly relevant to a background in operations and supply chain
+context, directly relevant to a background in operations and supply chain
 coordination. The Czechia case study was not planned; it emerged from the
 data and is documented in full as an example of analytical process over
 clean results.

@@ -1,0 +1,17 @@
+2026-04-22 22:47:03,725 | INFO | ==================================================
+2026-04-22 22:47:03,725 | INFO | Starting EU Logistics Pipeline
+2026-04-22 22:47:03,726 | INFO | Join year: 2022
+2026-04-22 22:47:03,726 | INFO | ==================================================
+2026-04-22 22:47:03,726 | INFO | Fetching World Bank LPI data...
+2026-04-22 22:47:04,813 | INFO |   Page 1/3 fetched (500 records)
+2026-04-22 22:47:05,772 | INFO |   Page 2/3 fetched (500 records)
+2026-04-22 22:47:06,717 | INFO |   Page 3/3 fetched (330 records)
+2026-04-22 22:47:06,733 | INFO | World Bank LPI: 385 valid records across 208 countries
+2026-04-22 22:47:06,737 | INFO | Fetching Eurostat road freight data...
+2026-04-22 22:47:08,315 | INFO | Eurostat freight: 59 valid records across 30 countries
+2026-04-22 22:47:08,317 | INFO | Fetching Eurostat modal split data...
+2026-04-22 22:47:10,742 | INFO | Modal split: 29 country-year records across 29 countries
+2026-04-22 22:47:10,745 | INFO | Joining datasets on year 2022...
+2026-04-22 22:47:10,772 | INFO | Combined dataset: 29 countries matched
+2026-04-22 22:47:10,784 | INFO | Output saved to: C:\dev\portfolio\project-4-pipeline\output\lpi_freight_2022_20260422.csv
+2026-04-22 22:47:10,855 | INFO | Pipeline completed successfully
