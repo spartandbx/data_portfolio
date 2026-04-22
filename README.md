@@ -96,4 +96,3 @@ operations coordination with the Australian Air Force Cadets.
 ## Contact
 
 - **GitHub:** [spartandbx](https://github.com/spartandbx)
-- **LinkedIn:** [Add your LinkedIn URL here]
